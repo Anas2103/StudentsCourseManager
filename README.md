@@ -1,6 +1,6 @@
 # Student Course Management System (SCMS)
 
-A complete fullstack Student Course Management System built with **Laravel 11** (REST API) and **React 19 + Vite** (SPA frontend).
+A complete fullstack Student Course Management System built with **Laravel 11** (REST API) and **React 18 + Vite** (SPA frontend).
 
 ---
 
@@ -9,7 +9,7 @@ A complete fullstack Student Course Management System built with **Laravel 11** 
 | Layer       | Technology                     |
 |-------------|--------------------------------|
 | Backend     | Laravel 11 + Sanctum           |
-| Frontend    | React 19 + Vite 6              |
+| Frontend    | React 18 + Vite 6              |
 | Database    | SQLite (dev) / MySQL (prod)    |
 | Styling     | Tailwind CSS 3                 |
 | HTTP Client | Axios                          |
@@ -360,3 +360,15 @@ Total = (Midterm × 30%) + (Final × 40%) + (Assignments × 20%) + (Attendance �
 - **Role-scoped data** — teachers see only their courses, students see only enrolled courses
 - **Responsive dashboard** with Recharts (area, bar, pie charts)
 - **Mobile-friendly sidebar** with collapse/overlay on small screens
+
+---
+
+## More projects
+
+- [**CarsRental**](https://github.com/Anas2103/CarsRental) — car rental manager with roles and PayPal (Laravel · React)
+- [**E-Commerce**](https://github.com/Anas2103/Ecommerce) — multi-vendor store with Stripe & PayPal (Laravel · React) · [live demo](https://anas2103-ecommerce.vercel.app)
+- [**HireMatch**](https://github.com/Anas2103/AiJobBoard) — AI job board that scores CVs against jobs (Laravel · React · OpenAI)
+- [**Relay**](https://github.com/Anas2103/Relay) — Telegram-style chat with E2EE secret chats and calls (Cloudflare Workers · React) · [live demo](https://relay-chat.bunbunchat.workers.dev)
+- [**SmartCourse**](https://github.com/Anas2103/SmartCoursePlatform) — online course platform with Stripe and certificates (Laravel · React)
+
+More about me on my [GitHub profile](https://github.com/Anas2103).
