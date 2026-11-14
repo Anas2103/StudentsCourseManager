@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+auth.json
+
+# Builds & caches
+dist/
+dist-ssr/
+**/public/build/
+**/public/hot
+**/public/storage
+**/bootstrap/cache/*.php
+.phpunit.result.cache
+.phpunit.cache/
+
+# Laravel runtime data (sessions, compiled views, logs, keys, uploads)
+**/storage/*.key
+**/storage/logs/*
+**/storage/framework/cache/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+**/storage/framework/testing/*
+**/storage/app/public/*
+**/storage/app/private/*
+!**/storage/**/.gitignore
+
+# Local databases & dumps
+*.sqlite
+*.sqlite-journal
+*.sql
+
+# Logs & OS / editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
